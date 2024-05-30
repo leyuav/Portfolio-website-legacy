@@ -613,7 +613,6 @@ button:hover {
   top: 180px;
   left: 50%;
   filter: blur(6px);
-  -webkit-filter: blur(6px);
 }
 
 .color-box-2 {
