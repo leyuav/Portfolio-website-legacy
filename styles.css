@@ -205,6 +205,11 @@ section {
   margin-right: 70px;
 }
 
+#what-i-do {
+  position: relative;
+  z-index: 2;
+}
+
 .what-i-do-text,
 .projects-text,
 .pricing-text,
@@ -428,6 +433,7 @@ section {
   background-color: #FFFFFF;
   width: 300px;
   height: 44px;
+  color: #000;
   transition: background-color 1s;
 }
 
@@ -613,23 +619,23 @@ button:hover {
 .color-box-2 {
   position: absolute;
   top: 1000px;
-  left: 400px;
+  left: 17%;
   background: linear-gradient(90deg, #e66465, #9198e5);
   width: 200px;
   height: 200px;
   border-radius: 47% 53% 18% 82% / 64% 39% 61% 36%;
-  z-index: -10;
+  z-index: 1;
 }
 
 .color-box-3 {
   position: absolute;
   top: 850px;
-  right: 450px;
+  right: 17%;
   background: linear-gradient(90deg, #d5cd53, #5a9fd0);
   width: 200px;
   height: 200px;
   border-radius: 75% 25% 18% 82% / 34% 65% 35% 66%;
-  z-index: -10;
+  z-index: 1;
 }
 
 
