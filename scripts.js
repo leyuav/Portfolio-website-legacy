@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   //Links appear back after shrinking and stretching window back
   window.addEventListener('resize', function() {
-    if (window.innerWidth > 720) {
+    if (window.innerWidth > 1050) {
         navbarLinks.style.display = 'flex';
     } else {
         navbarLinks.style.display = 'none';
