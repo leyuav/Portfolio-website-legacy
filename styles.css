@@ -42,7 +42,7 @@ a {
   cursor: pointer;
 }
 
-button {
+.button {
   cursor: pointer;
 }
 
@@ -163,7 +163,8 @@ section {
   margin-bottom: 10px;
 }
 
-#hero-buttons button {
+#hero-buttons a {
+  display: inline-block;
   margin-top: 20px;
   margin-right: 20px;
   background-color: #2F2F2F;
@@ -175,7 +176,7 @@ section {
   transition: background-color 0.7s;
 }
 
-#hero-buttons button:hover {
+#hero-buttons a:hover {
   background-color: #696161;
 }
 
@@ -423,7 +424,10 @@ section {
   margin-right: 8px;
 }
 
-.pricing-boxes button {
+.pricing-boxes a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
@@ -441,17 +445,17 @@ section {
   background-color: #fddb60;
 }
 
-.pricing-box-2 button {
+.pricing-box-2 a {
   background-color: #000;
   color: #fff;
 }
 
-.pricing-box-2 button:hover {
+.pricing-box-2 a:hover {
   background-color: #555050;
 }
 
-.pricing-box-1 button:hover,
-.pricing-box-3 button:hover {
+.pricing-box-1 a:hover,
+.pricing-box-3 a:hover {
   background-color: #eae0e0;
 }
 
@@ -732,7 +736,7 @@ button:hover {
     margin-bottom: 20px;
   }
 
-  #hero-buttons button {
+  #hero-buttons a {
     margin-right: 0;
     width: 100%;
   }
