@@ -278,6 +278,7 @@ section {
 .project-box-3 {
   display: grid;
   grid-template-columns: 160px 1fr;
+  align-items: center;
   column-gap: 20px;
 }
 
