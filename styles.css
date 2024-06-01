@@ -170,6 +170,8 @@ section {
   background-color: #2F2F2F;
   color: white;
   border: none;
+  width: 160px;
+  text-align: center;
   padding: 15px 25px;
   border-radius: 8px;
   font-size: 1.1rem;
