@@ -163,6 +163,10 @@ section {
   margin-bottom: 10px;
 }
 
+#hero-text .subheading {
+  margin-top: 35px;
+}
+
 #hero-buttons a {
   display: inline-block;
   margin-top: 20px;
@@ -239,7 +243,7 @@ section {
   text-align: center;
 }
 
-.what-i-do-boxes > div {
+.what-i-do-boxes>div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -300,8 +304,8 @@ section {
 }
 
 .project-boxes img {
-border-radius: 20px;
-object-fit: cover;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 .project-text h4,
@@ -548,11 +552,11 @@ fieldset {
   outline: none;
 }
 
-fieldset > div {
+fieldset>div {
   margin-bottom: 20px;
 }
 
-fieldset > div:last-of-type {
+fieldset>div:last-of-type {
   margin-bottom: 10px;
 }
 
@@ -648,6 +652,12 @@ button:hover {
   z-index: 1;
 }
 
+.color-box-4 {
+  position: absolute;
+  top: 240px;
+  z-index: -1;
+}
+
 
 .footer {
   width: 100%;
@@ -662,7 +672,8 @@ button:hover {
 
   .color-box-1,
   .color-box-2,
-  .color-box-3 {
+  .color-box-3,
+  .color-box-4 {
     display: none;
   }
 
@@ -675,6 +686,10 @@ button:hover {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+  }
+
+  #hero-text .subheading {
+    margin-top: 20px;
   }
 
   #navbar-links {
