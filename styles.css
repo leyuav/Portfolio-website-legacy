@@ -650,12 +650,11 @@ button:hover {
 
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
   background-color: black;
   color: white;
-  height: 58px;
   margin-top: 20px;
 }
 
