@@ -235,7 +235,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   align-items: stretch;
   column-gap: 30px;
-  max-width: 1050px;
+  max-width: 1150px;
   text-align: center;
 }
 
@@ -397,7 +397,7 @@ object-fit: cover;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1.05rem;
-  line-height: 1.2rem;
+  line-height: 1.8rem;
   color: #4e4c4c;
   margin-top: 12px;
   margin-bottom: 20px;
