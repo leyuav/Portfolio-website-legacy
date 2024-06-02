@@ -30,7 +30,15 @@ document.addEventListener('DOMContentLoaded', function () {
   const navbarLinks = document.getElementById('navbar-links');
 
   hamburgerMenu.addEventListener('click', function () {
-    navbarLinks.style.display = (navbarLinks.style.display === 'flex') ? 'none' : 'flex';
+    if (navbarLinks.style.display === 'flex') {
+      navbarLinks.style.display = 'none';
+      hamburgerMenu.innerHTML = '&#9776;';
+      this.classList.remove('cross');
+  } else {
+      navbarLinks.style.display = 'flex';
+      hamburgerMenu.innerHTML = '&#10005;';
+      this.classList.add('cross');
+  }
   });
 
   window.addEventListener('resize', function () {
