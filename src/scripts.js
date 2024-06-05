@@ -34,14 +34,28 @@ document.addEventListener('DOMContentLoaded', function () {
       navbarLinks.style.display = 'none';
       hamburgerMenu.innerHTML = '&#9776;';
       this.classList.remove('cross');
-  } else {
+    } else {
       navbarLinks.style.display = 'flex';
       hamburgerMenu.innerHTML = '&#10005;';
       this.classList.add('cross');
-  }
+    }
   });
 
   window.addEventListener('resize', function () {
     navbarLinks.style.display = (window.innerWidth > 1050) ? 'flex' : 'none';
   });
 });
+
+// Project-boxes temporary alert
+const projectBoxes = document.querySelectorAll('.project-box');
+
+// Loop through all project boxes except the first and third
+projectBoxes.forEach((box, index) => {
+  if (index !== 0 && index !== 2) {
+    box.addEventListener('click', function (event) {
+      alert('Not available. Work in progress.');
+      event.preventDefault(); // Prevent the default action of the <a> link
+    });
+  }
+});
+
