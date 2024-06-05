@@ -579,8 +579,7 @@ button:hover {
 
 .color-box-4 {
   display: block;
-  position: absolute;
-  bottom: -30px;
+  margin-bottom: -20px;
   z-index: -1;
 }
 
