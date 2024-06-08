@@ -254,7 +254,7 @@ section {
 
 .project-boxes {
   display: grid;
-  grid-template-columns: repeat(3, 33%);
+  grid-template-columns: repeat(3, 3fr);
   width: 1150px;
   margin-top: 50px;
   row-gap: 40px;
@@ -281,8 +281,12 @@ section {
   height: 160px;
 }
 
+.project-box:nth-child(5) img {
+  object-fit: contain;
+}
+
 .project-boxes img:hover {
-transform: scale(1.04);
+transform: scale(1.03);
 }
 
 .pricing-boxes {
