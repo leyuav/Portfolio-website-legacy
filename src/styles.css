@@ -6,24 +6,24 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 24px;
   background-color: #f1e8dc;
-  color: #55206D;
+  color: #55206d;
 }
 
 h1 {
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 50px;
-  color: #190D37;
+  color: #190d37;
   position: relative;
 }
 
 h2 {
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 40px;
@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 27px;
@@ -54,12 +54,12 @@ section {
 
 .pre-heading {
   margin-bottom: 20px;
-  color: #2858FF;
+  color: #2858ff;
 }
 
 .subheading {
-  font-family: 'Poppins', sans-serif;
-  color: #190D37;
+  font-family: "Poppins", sans-serif;
+  color: #190d37;
   line-height: 2rem;
   font-size: 1.2rem;
   margin-top: 10px;
@@ -96,7 +96,7 @@ section {
   float: right;
   margin-left: 15px;
   color: black;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-size: 18px;
 }
 
@@ -118,7 +118,7 @@ section {
 }
 
 #navbar-links a:hover {
-  color: #FFB800;
+  color: #ffb800;
 }
 
 #hero {
@@ -171,7 +171,7 @@ section {
   display: inline-block;
   margin-top: 20px;
   margin-right: 20px;
-  background-color: #2F2F2F;
+  background-color: #2f2f2f;
   color: white;
   border: none;
   width: 160px;
@@ -286,7 +286,7 @@ section {
 }
 
 .project-boxes img:hover {
-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .pricing-boxes {
@@ -299,32 +299,33 @@ transform: scale(1.03);
 }
 
 .pricing-box h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 0.95rem;
   line-height: 21px;
   color: #000;
 }
 
-.pricing-box:nth-child(2) {
+.pricing-box.active-box {
   background-color: #fddb60;
+  position: relative;
 }
 
-.pricing-box:nth-child(2) h4 {
-  color: #2858FF;
+.pricing-box.active-box h4 {
+  color: #2858ff;
 }
 
-.pricing-box:nth-child(2) a {
+.pricing-box.active-box a {
   color: #fff;
   background-color: #000;
 }
 
-.pricing-box:nth-child(2) a:hover {
+.pricing-box.active-box a:hover {
   background-color: #595252;
 }
 
 .pricing-box .price {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2rem;
   line-height: 54px;
@@ -333,16 +334,16 @@ transform: scale(1.03);
 }
 
 .pricing-box .price span {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 0.95rem;
   line-height: 21px;
-  color: #8A8A8A;
+  color: #8a8a8a;
   margin-left: 12px;
 }
 
 .pricing-box p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.05rem;
   line-height: 1.8rem;
@@ -356,7 +357,7 @@ transform: scale(1.03);
 }
 
 .pricing-box ul li {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 0.95rem;
   line-height: 24px;
@@ -372,7 +373,7 @@ transform: scale(1.03);
   color: #fff;
   width: 12px;
   height: 12px;
-  content: '\2713';
+  content: "\2713";
   background-color: #666666;
   border-radius: 50%;
   float: left;
@@ -380,13 +381,13 @@ transform: scale(1.03);
 }
 
 .pricing-box a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #2F2F2F;
+  border: 2px solid #2f2f2f;
   border-radius: 4px;
   background-color: #fff;
   width: 300px;
@@ -414,11 +415,11 @@ transform: scale(1.03);
 
 .accordion {
   background: none;
-  color: #55206D;
+  color: #55206d;
   cursor: pointer;
   font-size: 1.4rem;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: none;
   outline: none;
   width: 100%;
@@ -445,9 +446,9 @@ transform: scale(1.03);
 }
 
 .answer p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
-  color: #6A87A3;
+  color: #6a87a3;
   font-size: 1.1rem;
   line-height: 1.4;
   padding-right: 1.5rem;
@@ -481,18 +482,18 @@ fieldset {
   outline: none;
 }
 
-fieldset>div {
+fieldset > div {
   margin-bottom: 20px;
 }
 
-fieldset>div:last-of-type {
+fieldset > div:last-of-type {
   margin-bottom: 10px;
 }
 
 label {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
-  color: #55206D;
+  color: #55206d;
   font-size: 1.25rem;
   margin-bottom: 12px;
   display: block;
@@ -500,7 +501,7 @@ label {
 
 input,
 textarea {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
   width: 100%;
@@ -514,7 +515,7 @@ textarea {
 
 button[type="submit"] {
   padding: 10px;
-  background-color: #2858FF;
+  background-color: #2858ff;
   color: white;
   width: 100%;
   border: none;
@@ -602,7 +603,6 @@ button:hover {
 }
 
 @media screen and (max-width: 1050px) {
-
   .color-box-1,
   .color-box-2,
   .color-box-3,
@@ -777,10 +777,7 @@ button:hover {
 }
 
 @media screen and (max-width: 440px) {
-    .project-boxes {
-
-      grid-template-columns: 1fr;
-    }
+  .project-boxes {
+    grid-template-columns: 1fr;
+  }
 }
-
-
