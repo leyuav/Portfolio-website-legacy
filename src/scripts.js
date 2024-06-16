@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Loop through all project boxes except the first and third
   projectBoxes.forEach((box, index) => {
-    if (index !== 0 && index !== 1 && index !== 2 && index !== 4) {
+    if (index !== 0 && index !== 1 && index !== 2 && index !== 3 && index !== 4) {
       box.addEventListener("click", function (event) {
         alert("Not available. Work in progress.");
         event.preventDefault(); // Prevent the default action of the <a> link
